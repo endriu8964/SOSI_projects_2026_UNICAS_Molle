@@ -1,0 +1,32 @@
+# =============================================================================
+# .gitignore — KernelExplorer
+# Esclude i file binari/intermedi prodotti dal sistema di build del kernel.
+# =============================================================================
+
+# Oggetti e moduli compilati
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+
+# File di stato e cache del build
+.*.cmd
+*.symvers
+*.order
+modules.order
+Module.symvers
+
+# Directory di build temporanee
+.tmp_versions/
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Eccezione: la relazione del progetto va versionata
+!relazione*.pdf
+!relazioneKernelExplorer.pdf
