@@ -1,0 +1,25 @@
+# Eseguibili e file oggetto
+sosi_shell
+*.o
+*.out
+*.exe
+
+# File temporanei dei test
+*.txt
+!README*.txt
+
+# Editor / IDE
+*~
+*.swp
+.vscode/
+.idea/
+
+# File generati dalla compilazione LaTeX della relazione
+*.aux
+*.log
+*.toc
+
+# I PDF sono esclusi di default in molti template, ma la relazione va consegnata:
+*.pdf
+# Eccezione per la relazione
+!relazioneShell.pdf
